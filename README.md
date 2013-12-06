@@ -25,5 +25,15 @@ Install
 mkdir /opt
 cd /opt && git clone https://github.com/netroby/kkm.git && ln -s /opt/kkm/kkm /usr/sbin/kkm && chmod a+x /usr/sbin/kkm
 ```
+Usage
+---------
+```
+kkm search  packagename
 
+kkm update 
+
+kkm install packagename
+
+kkm list
+```
 

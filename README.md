@@ -28,14 +28,12 @@ cd /opt && git clone https://github.com/netroby/kkm.git && ln -s /opt/kkm/kkm /u
 Usage
 ---------
 ```
-kkm clean
-
-kkm search  packagename
-
-kkm update 
-
-kkm install packagename
-
-kkm list
+kkm clean		#clean and remove unused packages
+kkm search  packagename		#search packages
+kkm show  packagename		#display information of  packages
+kkm update		#update package database
+kkm upgrade		#upgrade all installed package
+kkm install		#packagename	install packages
+kkm list		#list installed packages
 ```
 

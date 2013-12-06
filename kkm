@@ -20,6 +20,7 @@ if [ $1 ]; then
 	fi
 else
 	echo -n "Usage:\n"
+	echo -n "kkm clean\n"
 	echo -n "kkm search  packagename\n"
 	echo -n "kkm update \n"
 	echo -n "kkm install packagename\n"

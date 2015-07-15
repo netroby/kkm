@@ -7,7 +7,7 @@ if [ $1 ]; then
 		apt-cache $*
 	fi
 	if [ $1 = 'update' ] || [ $1 = 'install' ]; then
-		apt-get $*
+		apt-get -y $*
 	fi
 	if [ $1 = 'list' ]; then
 		dpkg --$*
